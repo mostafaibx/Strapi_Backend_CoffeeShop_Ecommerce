@@ -7,5 +7,5 @@ module.exports = ({ env }) => ({
   webhooks: {
     populateRelations: env.bool("WEBHOOKS_POPULATE_RELATIONS", false),
   },
-  url: env("", "https://coffeeshop-4iijopkae-mostafaibxs-projects.vercel.app/"),
+  url: env("", "https://strapi-backend-coffeeshop-ecommerce.onrender.com/"),
 });
